@@ -1,0 +1,41 @@
+{
+    "name": "fast-backend-gh-pages",
+    "version": "1.0.0",
+    "private": true,
+    "description": "fast-backend-gh-pages",
+    "author": "Antonio Hermosilla Parra",
+    "keywords": [
+        "gatsby"
+    ],
+    "bugs": {
+        "url": "https://github.com/xhermosilla/fast-backend/issues"
+    },
+    "homepage": "https://github.com/xhermosilla/fast-backend#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/xhermosilla/fast-backend.git"
+    },
+    "scripts": {
+        "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+        "develop": "gatsby develop",
+        "start": "gatsby develop",
+        "build": "gatsby build",
+        "serve": "gatsby serve",
+        "clean": "gatsby clean",
+        "typecheck": "tsc --noEmit"
+    },
+    "dependencies": {
+        "@mdx-js/react": "^2.1.4",
+        "gatsby": "^4.24.2",
+        "gatsby-plugin-mdx": "^4.3.0",
+        "gatsby-source-filesystem": "^4.24.0",
+        "react": "^18.1.0",
+        "react-dom": "^18.1.0"
+    },
+    "devDependencies": {
+        "@types/node": "^17.0.45",
+        "@types/react": "^18.0.21",
+        "@types/react-dom": "^18.0.6",
+        "typescript": "^4.8.3"
+    }
+}
