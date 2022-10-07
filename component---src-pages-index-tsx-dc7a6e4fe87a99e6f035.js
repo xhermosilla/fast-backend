@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkfast_backend_gh_pages=self.webpackChunkfast_backend_gh_pages||[]).push([[691],{7200:function(e,n,t){t.r(n),t.d(n,{Head:function(){return r}});var a=t(7294),s={color:"#232129",padding:96,fontFamily:"-apple-system, Roboto, sans-serif, serif"};n.default=function(){return a.createElement("main",{style:s},a.createElement("h1",null,"Fast Backend"))};var r=function(){return a.createElement("title",null,"Home Page")}}}]);
+//# sourceMappingURL=component---src-pages-index-tsx-dc7a6e4fe87a99e6f035.js.map
